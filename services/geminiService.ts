@@ -63,7 +63,7 @@ export const fetchAdmissionInfo = async (university: string, year: number): Prom
   `;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
+    model: "gemini-2.5-flash",
     contents: prompt,
     config: {
       tools: [{ googleSearch: {} }],
@@ -119,7 +119,7 @@ export const fetchStats = async (university: string, year: number): Promise<Stat
   `;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
+    model: "gemini-2.5-flash",
     contents: prompt,
     config: {
       tools: [{ googleSearch: {} }],
@@ -148,7 +148,7 @@ export const fetchExamQuestions = async (university: string): Promise<string> =>
   `;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
+    model: "gemini-2.5-flash",
     contents: prompt,
     config: {
       tools: [{ googleSearch: {} }],
