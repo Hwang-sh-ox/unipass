@@ -1,7 +1,0 @@
-{
-  "name": "UniPass: 대학 입시 통합 정보 포털",
-  "description": "전국 대학의 전형 일정, 평가 기준, 입시 결과(50%/70% 컷) 및 기출문제 풀이 기능을 제공하는 스마트 입시 포털입니다.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
-}
